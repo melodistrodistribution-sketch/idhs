@@ -9,7 +9,7 @@ compatibility_flags = ["nodejs_compat"]
 directory = "./public"
 
 [vars]
-DISABLE_API_SEARCH = "true"
+DISABLE_API_SEARCH = "false"
 
 [[migrations]]
 tag = "v1"
