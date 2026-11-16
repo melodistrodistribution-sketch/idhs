@@ -18,3 +18,7 @@ new_sqlite_classes = ["QuotaDO"]
 [[migrations]]
 tag = "v2-remove-quota"
 deleted_classes = ["QuotaDO"]
+
+[observability.logs]
+enabled = true
+invocation_logs = true
